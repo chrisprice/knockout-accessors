@@ -1,0 +1,23 @@
+{
+  "name": "knockout-accessors",
+  "version": "0.0.0",
+  "description": "ERROR: No README.md file found!",
+  "main": "lib/ok.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "knockout": "~2.3.0pre",
+    "knockout-mapping": "~2.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chrisprice/knockout-accessors.git"
+  },
+  "author": "Chris Price",
+  "license": "BSD"
+}
