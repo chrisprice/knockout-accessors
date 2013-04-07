@@ -3,7 +3,6 @@
 <span data-bind="text: c"></span>
 <script src='browserify.js'></script>
 <script>
-var ko = require('knockout');
 var ok = require('./lib/ok');
 
 var obj = {};
@@ -22,7 +21,7 @@ console.log(obj.a = 4);
 console.log(obj.c);
 
 ok.expose(function() {
-	ko.applyBindings(obj);
+	ok.applyBindings(obj);
 })
 </script>
 
